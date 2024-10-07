@@ -14,7 +14,7 @@ main {
 
 aside {
     width: 20rem;
-    text-align: var(--text-aling);
+    text-align: var(--text-align);
     position: relative;
 }
 
