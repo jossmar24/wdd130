@@ -9,11 +9,11 @@
 }
 
 main {
-    max-with: 840px;
+    max-width: 840px;
 }
 
 aside {
-    with: 20rem;
+    width: 20rem;
     text-align: var(--text-aling);
     position: relative;
 }
@@ -24,7 +24,7 @@ aside img {
 }
 
 aside h2 {
-    positio: absolute;
+    position: absolute;
     left: 80px;
 }
 
