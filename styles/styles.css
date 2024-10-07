@@ -1,7 +1,32 @@
 :root {
-    
+    --text-align: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-with: 840px;
+}
+
+aside {
+    with: 20rem;
+    text-align: var(--text-aling);
+    position: relative;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+aside h2 {
+    positio: absolute;
+    left: 80px;
+}
 
 nav {
     background-color: steelblue;
