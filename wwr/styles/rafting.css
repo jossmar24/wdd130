@@ -1,6 +1,6 @@
 :root {
-  --primary-color: 0, 64, 65;
-  --secondary-color: 251, 1, 0;
+  --primary-color: 1, 100, 50;
+  --secondary-color: 100, 100, 0;
   --accent1-color: 253, 215, 0;
   --accent2-color: 6, 111, 141;
 }
@@ -268,11 +268,11 @@ textarea {
 }
 
 .trips {
-  grid-column: 1 / 3;
+  grid-column: 2 / 4;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 0 1rem;
-  border-right: 3px solid rgba(var(--accent1-color), 0.2);
+  border-left: 3px solid rgba(var(--accent1-color), 0.2);
 }
 
 .trips h2 {
@@ -288,7 +288,7 @@ textarea {
   margin: 0;
 }
 
-ul{
+ul {
   padding: 0;
   margin: 0;
 }
@@ -308,7 +308,7 @@ li p {
   font-size: 2rem;
 }
 
-.newsletter form{
+.newsletter form {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1rem 1rem;
@@ -339,7 +339,8 @@ li p {
   background-color: rgba(var(--accent1-color), 0.2);
 }
 
-.all_trips h3, p{
+.all_trips h3,
+p {
   margin: 0;
 }
 
@@ -351,6 +352,6 @@ li p {
   margin: 0;
   padding: 0;
   line-height: 0;
-  font-size: 5rem;
+  font-size: 2rem;
   background-color: rgba(var(--accent1-color), 0.2);
 }
